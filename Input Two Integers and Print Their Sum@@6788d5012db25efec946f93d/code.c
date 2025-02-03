@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int num1,num2,num3;
+    int num1,num2,sum;
     scanf("%d",&num1);
     scanf("%d",num2);
     sum = num1+num2;
