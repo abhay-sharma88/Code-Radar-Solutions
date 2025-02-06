@@ -18,6 +18,14 @@ int main() {
     else if(c>a>b){
         printf("%d",c);
     }
-    
+    else if(a>c>b){
+        printf("%d",a);
+    }
+    else if(b>a>c){
+        printf("%d",b);
+    }
+    else if(a<b<c){
+        printf("%d",c);
+    }
     return 0;
 }
