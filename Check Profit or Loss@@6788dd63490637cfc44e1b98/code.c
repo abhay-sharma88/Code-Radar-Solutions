@@ -8,13 +8,13 @@ int main() {
     int a,b;
     scanf("%d",&a);
     scanf("%d",&b);
-    if(a==100 && b==150){
+    if(a>b){
         printf("Profit");
     }
-    if else(a==200 && b==150){
+    if else(a<b){
         printf("Loss");
     }
-    else{
+    else if{(a == b)
         printf("No Profit No Loss");
     }
     return 0;
