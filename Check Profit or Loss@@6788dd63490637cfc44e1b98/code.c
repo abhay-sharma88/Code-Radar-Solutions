@@ -11,10 +11,10 @@ int main() {
     if(a<b){
         printf("Profit");
     }
-    if else(a>b){
+    else if(a>b){
         printf("Loss");
     }
-    if else{(a == b)
+    else if{(a == b)
         printf("No Profit No Loss");
     }
     return 0;
